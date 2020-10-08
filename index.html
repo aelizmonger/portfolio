@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addy Monger</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/css/materialize.min.css'>
+    <!--My CSS-->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Addy Monger</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#interests">Interests</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="intro deep-orange lighten-2 z-depth-1">
+      <h1 class="grey-text text-lighten-5">Addy Monger</h1>
+      <h5 clas="grey lighten-4 grey-text text-darken-1">Future Web Developer</h5>
+    </div>
+
+      <div class="about container">
+        <h5>ABOUT ME</h5>
+        <h6>Let me introduce myself</h6>
+        <hr>
+        <div class="row">
+          <div class="col s12 m4 l4">
+            <h6>Story</h6>
+            <p>I graduated from Ball State University in 2018 with a degree in Hospitality and Theatre. During my time at Ball State I was involved with Pi Beta Phi Sorority where I held the position of Vice President of Event Planning. After college, I began working as the Even Manager for the Indianapolis Symphony Orchestra where I grew my event planning skills and customer service skills. Due to the recent pandemic our theatre was forced to close and I wanted to learn a skill that would open up new doors to me. Now, I am learning about web development through Eleven Fifty Academy and hope to work in this career feild after the course. </p>
+          </div>
+          <div class="col s12 m4 l4">
+            <h6>Profile</h6>
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <img src="assets/Screen Shot 2020-10-08 at 7.02.52 AM.png" width="200" height="260">
+              </div>
+              <div class="card-action">
+                <a href="www.linkedin.com/in/addy-monger-962b23131">LinkedIn</a>
+                <br>
+                <a href="https://github.com/aelizmonger">GitHub</a>
+                <br>
+                <a href="assets/Addy Monger Resume 2020.pdf">Resume</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l4">
+            <h6>Interests</h6>
+            <p>I currently reside in Indiapolis, Indiana with hopes to eventually move out west. I enjoy hiking around different state parks and kayaking at Eagle Creek Park. I have been involved with community theatre since highschool and most recently played Heather Chandler in "Heather's: The Musical" at Theatre on the Square. Check out the photos below! </p>
+      </div>
+
+      <div class="container Interests">
+        <h5>Interests</h5>
+        <hr>
+        <div class="row">
+          <div class="col s12 m12 l12 portfolio-holder">
+            <img class="materialboxed" src="assets/heathers.jpg" width="300" height="200"> 
+            <img class="materialboxed" src="assets/IMG_3872.JPG" width="300" height="200">
+            <img class="materialboxed" src="assets/IMG_8621.JPEG" width="300" height="200">
+          </div>
+        </div>
+      </div>
+
+      <div class="container portfolio">
+        <h5>Portfolio</h5>
+        <h6>My Latest Projects</h6>
+        <hr>
+        <div class="row">
+          <div class="col s12 m12 l12 portfolio-holder">
+           
+            <a href="https://codepen.io/aelizmonger/pen/XWdELvr"><img src="assets/Teacup_Creature.png" width="300" height="200" title="Teacup" alt="Flower"></a>
+            <a href="https://aelizmonger.github.io/WD64-staticLayout/"><img src="assets/KAST.png" width="300" height="200" title="KAST" alt="Flower"></a>
+            <a href="https://aelizmonger.github.io/Pokemon_API/"><img src="assets/POKEMON.png" width="300" height="200" title="Poke" alt="Flower"></a>
+            <a href="https://aelizmonger.github.io/Giph_API"><img src="assets/GIPHY.png" width="300" height="200" title="Poke" alt="Giphy"></a>
+            <img class="materialboxed" src="assets/Red.png" width="300" height="200">
+            <img class="materialboxed" src="assets/Blue.png" width="300" height="200">
+          </div>
+        </div>
+      </div>
+      <div class="container contact">
+        <h5>Contact Me</h5>
+        <h6>Get in touch</h6>
+        <hr>
+        <div class="row">
+          <div class="col s12 m6 l6">
+            <div class="row">
+              <form class="col s12" method="POST" action="contact.php">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input name="first_name" id="first_name" type="text" class="validate" required>
+                    <label for="first_name">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input name="last_name" id="last_name" type="text" class="validate" required>
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input name="email" id="email" type="email" class="validate" required>
+                    <label for="email">E-Mail</label>
+                  </div>
+                </div>
+                <textarea name="msg" class="materialize-textarea" placeholder="Your Message" required></textarea>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit<i class="mdi-content-send right"></i></button>
+              </form>
+            </div>
+          </div>
+          <div class="col s12 m6 l6 contact-holder">
+            <h6 class="mdi-communication-phone">Phone</h6>
+            <p>317-201-0906</p>
+            <h6 class="mdi-communication-email">Email</h6>
+            <p>aelizmonger@gmail.com</p>
+            <h6 class="mdi-communication-facebook">Facebook</h6>
+            <p><a href="https://www.facebook.com/addy.monger">Addy Monger</a></p>
+          </div>
+        </div>
+          <footer>
+            <p>Copyright Monger 2020</p>
+          </footer>
+        </div>
+      </div>
+      
+   
+  
+
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--My JS-->
+    <script src="index.js"></script>
+
+</body>
+</html>
